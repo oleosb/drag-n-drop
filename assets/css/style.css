@@ -1,0 +1,65 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap');
+
+*,
+*::before,
+*::after{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        list-style-type: none;
+        text-decoration: none;
+}
+
+html{
+        font-family: 'Roboto', sans-serif;
+}
+
+body{
+        width: 100vw;
+        overflow: hidden;
+        background-color: #DDFFE7;
+        flex-direction: column;
+        padding: 2em;
+}
+
+h1{
+        color: #167D7F;
+        margin: 0 0 3em 0;
+}
+
+body,
+.container{        
+        display: flex;
+        align-items: center;
+}
+
+.container{
+        flex-wrap: wrap;
+        gap: 20px;
+        justify-content: center;
+}
+
+.box{
+        width: 150px;
+        height: 150px;
+        background-color: #98D7C2;
+        border: 2px solid #167D7F;
+}
+
+.fill{
+        background-image: url('../imgs/montanha2.jpg');
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        width: 100%;
+        height: 100%;
+        cursor: pointer;
+}
+
+.hold{
+        opacity: .7;
+}
+
+.hovered{
+        background-color: #167D7F;
+}
